@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <style>
+  /* Set white background color for body */
+   body {
+      background-color: rgb(0, 0, 0);
+      margin: 0; /* Remove default margins */
+    }
+    /* Create grid container with black background */
+    #grid-container {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr); /* Set number and width of columns */
+      grid-template-rows: repeat(25, auto); /* Set row height based on content */
+      grid-gap: 5px; /* Set gap between grid cells */
+      background-color: rgb(14, 11, 11); /* Set grid container background color */
+      width: 100%; /* Set grid container width */
+      height: 100vh; /* Set grid container height to fill entire screen */
+    }
+    /* Style grid cells */
+    #grid-container > div {
+      background-color: rgb(255, 255, 255); /* Set grid cell background color */
+      color: rgb(0, 0, 0); /* Set grid cell text color */
+      display: flex; /* Enable flexbox layout */
+      align-items: center; /* Center text vertically */
+      justify-content: center; /* Center text horizontally */
+      font-size: 18px; /* Set font size */
+      padding: 0px; /* Remove internal padding */
+    }
+    .menu-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 5px 10px;
+      color: black; /* Set button text color */
+      text-decoration: none;
+      border-radius: 5px;
+      border: none; /* Remove borders */
+      /* Add animation properties */
+      background-image: linear-gradient(yellow);
+      background-size: 800% 800%;
+      animation: gradient 8s ease infinite alternate; /* Add alternate */
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+    }
+  </style>
+</head>
+<body> 
+<div class="container">
+<!-- Кнопка "назад" -->
+<button onclick="window.location.href='index.html';" class="menu-button">Назад</button>
+</div>
+<div id="grid-container">
+<div>Прием пищи</div>
+<div>Раздел</div>
+<div>№ рец.</div>
+<div>Блюдо</div>
+<div>Выход, г</div>
+<div>Цена</div>
+<div>Калорийность</div>
+<div>Белки</div>
+<div>Жиры</div>
+<div>Углеводы</div>
+<div>Завтрак</div>
+<div>гор.блюдо</div>
+<div>189</div>
+<div>КАША ЖИДКАЯ МОЛОЧНАЯ ОВСЯНАЯ "ГЕРКУЛЕС" С МАСЛОМ СЛИВОЧНЫМ</div>
+<div>130</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>128</div>
+<div>4</div>
+<div>5.4</div>
+<div>14.3</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>гор.напиток</div>
+<div>465</div>
+<div>КОФЕЙНЫЙ НАПИТОК С МОЛОКОМ</div>
+<div>180</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>80.9</div>
+<div>2.8</div>
+<div>1.7</div>
+<div>12.4</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>хлеб</div>
+<div>576</div>
+<div>БАТОН НАРЕЗНОЙ</div>
+<div>20</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>53.6</div>
+<div>1.5</div>
+<div>0.5</div>
+<div>10.6</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>гор.блюдо</div>
+<div>225</div>
+<div>ПУДИНГ ИЗ ТВОРОГА С МОЛОКОМ СГУЩЕННЫМ</div>
+<div>85</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>194.8</div>
+<div>9.4</div>
+<div>8.3</div>
+<div>21.7</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>фрукты</div>
+<div>1</div>
+<div>ЯБЛОКО СВЕЖЕЕ</div>
+<div>100</div>
+<div>99.9</div>
+<div>47</div>
+<div>0.4</div>
+<div>0.4</div>
+<div>9.8</div>
+<div>Завтрак 2</div>
+<div>фрукты</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>Обед</div>
+<div>закуска</div>
+<div>70</div>
+<div>ОГУРЕЦ СОЛЕНЫЙ</div>
+<div>60</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>6</div>
+<div>0.5</div>
+<div>0.1</div>
+<div>1</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>1 блюдо</div>
+<div>95</div>
+<div>СУП ИЗ ОВОЩЕЙ С МЯСОМ </div>
+<div>200</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>105.2</div>
+<div>2.9</div>
+<div>5.6</div>
+<div>7.8</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>2 блюдо</div>
+<div>256</div>
+<div>ПЕЧЕНЬ ПО-СТРОГАНОВСКИ</div>
+<div>90</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>126.6</div>
+<div>14</div>
+<div>5.9</div>
+<div>2.1</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>гарнир</div>
+<div>340</div>
+<div>ПЮРЕ КАРТОФЕЛЬНОЕ С МОРКОВЬЮ</div>
+<div>150</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>126.4</div>
+<div>2.4</div>
+<div>4.7</div>
+<div>19</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>сладкое</div>
+<div>601</div>
+<div>КОМПОТ ИЗ СМЕСИ СУХОФРУКТОВ</div>
+<div>180</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>68.5</div>
+<div>0.7</div>
+<div>0</div>
+<div>16.8</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>хлеб бел.</div>
+<div>576</div>
+<div>БАТОН НАРЕЗНОЙ</div>
+<div>40</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>107.2</div>
+<div>3</div>
+<div>1.1</div>
+<div>21.2</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>хлеб черн.</div>
+<div>575</div>
+<div>ХЛЕБ РЖАНО-ПШЕНИЧНЫЙ</div>
+<div>40</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>88.4</div>
+<div>2.6</div>
+<div>0.4</div>
+<div>18.5</div>
+<div>&#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; &#8203; </div>
+<div>булочное</div>
+<div>287</div>
+<div>ВАТРУШКА С ТВОРОГОМ</div>
+<div>60</div>
+<div>149.8</div>
+<div>121.9</div>
+<div>4.1</div>
+<div>4.1</div>
+<div>23.8</div>
+</div></body> </html>
